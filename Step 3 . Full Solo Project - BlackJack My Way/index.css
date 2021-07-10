@@ -1,0 +1,153 @@
+*{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: black 5px 10px 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: goldenrod;
+}
+#all{
+    margin-top: 15px;
+    padding-top: 350px;
+    display: inline-block;
+    border: none;
+    size: 1600px 900px;
+    min-width: 1600px;
+    max-width: 1600px;
+    text-align: center;
+    background-image: url("images/FOND.png");
+    background-size: 1600px 900px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    vertical-align: center;
+    text-align: center;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#messageCroupier{
+    margin-top: -60px;
+    margin-bottom: 75px;
+    display: inline-block;
+    width: 30%;
+    margin-right: 30px;
+    margin-left: -50px;
+}
+#scoreCroupier{
+    display: inline-block;
+    margin-left: 80px;
+}
+#cartesCroupier{
+    display: inline-block;
+    float: right;
+    width: 30%;
+    margin-top: -35px;
+    margin-bottom: 80px;
+}
+#cartesCroupier img{
+    width: 15%;
+    margin-right: -40px;
+    float: left;
+}
+
+button {
+    border: none;
+    display: inline-block;
+    margin-top: -50px;
+    background-size: 258px 120px;
+    width: 258px;
+    height: 120px;
+}
+#gameButtons{
+    margin-top: -80px;
+    margin-left: 55px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+#gameButtons button{
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+#hitButton{
+    background: url("images/HIT.png") no-repeat ;
+    margin: 0px 10px  0px 10px;
+}
+#standButton{
+    background: url("images/STAND.png") no-repeat ;
+    margin: 0px 10px  0px 10px;
+}
+#doubleButton{
+    background: url("images/DOUBLE.png") no-repeat ;
+    margin: 0px 30px  0px 30px;
+}
+
+#startAndScore{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    margin-left: 132px;
+    margin-top: 40px;
+}
+#startButton{
+    display: inline-block;
+    margin-top: 80px;
+}
+#score{
+    display: inline-block;
+    position: absolute;
+    float: right;
+    position: absolute;
+    width: 80px;
+}
+#startAndScore #leftPart{
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-left: 130px;
+    display: inline-block;
+    width: 40%;
+}
+#startAndScore #cartes {
+    display: inline-block;
+    float: right;
+    width: 40%;
+    margin-left: 55px;
+    margin-right: 50px;
+}
+#startAndScore #cartes img{
+    width: 15%;
+    margin-right: -40px;
+    float: left;
+}
+#startButton{
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 60px;
+    float: left;
+    background: url("images/START.png") no-repeat top left;
+    display: inline-block;
+}
+#score{
+    display: inline-block;
+    margin-top: 32px;
+    float: right;
+}
+
+#money{
+    font-size: 35px;
+    width: 10%;
+    margin-left: 79%;
+    margin-top: -10px;
+}
+
+footer{
+    margin-top: 75px;
+    display: inline-block;
+    width: 100%;
+}
