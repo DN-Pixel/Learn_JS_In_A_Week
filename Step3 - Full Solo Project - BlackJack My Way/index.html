@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pixel BJ</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="all">
+            <p id="messageCroupier"></p>
+            <p id="scoreCroupier"></p>
+            <div id="cartesCroupier" onclick="croupierPlay()">
+                <img src="images/empty.png" id="carteC0">
+                <img src="" id="carteC1">
+                <img src="" id="carteC2">
+                <img src="" id="carteC3">
+                <img src="" id="carteC4">
+                <img src="" id="carteC5">
+                <img src="" id="carteC6">
+                <img src="" id="carteC7">
+                <img src="" id="carteC8">
+                <img src="" id="carteC9">
+                <img src="" id="carteC10">
+            </div>
+            <div id="gameButtons">
+                <button onclick="hit()" id="hitButton"></button>
+                <button onclick="double()" id="doubleButton"></button>
+                <button onclick="stand()" id="standButton"></button>
+            </div>
+            <div id="startAndScore">
+                <div id="leftPart">
+                    <button onclick="startGame()" id="startButton"></button>
+                    <p id="score">score:0eee 100 Geee</p>
+                </div>
+                <div id="cartes">
+                    <img src="images/empty.png" id="carte0">
+                    <img src="" id="carte1">
+                    <img src="" id="carte2">
+                    <img src="" id="carte3">
+                    <img src="" id="carte4">
+                    <img src="" id="carte5">
+                    <img src="" id="carte6">
+                    <img src="" id="carte7">
+                    <img src="" id="carte8">
+                    <img src="" id="carte9">
+                    <img src="" id="carte10">
+                </div>
+            </div>
+            <p id="money"></p>
+            <footer>
+                Everything belongs to Clone Corp. All rights reserved.
+            </footer>
+            <script src="index.js"></script>
+        </div>
+    </body>
+
+</html>
